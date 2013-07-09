@@ -1,18 +1,22 @@
 var Word = function () {
   this.verbs = [
     'barking', 'complaining','driving', 'dumping', 'dying', 'eating', 'going',
-    'hugging', 'jumping', 'meeting', 'running', 'sleeping', 'talking',
-    'thinking', 'walking', 'whining'
+    'hugging', 'jumping', 'meeting', 'running', 'singing', 'sleeping',
+    'talking', 'thinking', 'walking', 'waxing', 'whining'
   ];
 
   this.adjectives = [
-    'creative', 'boring', 'creepy', 'fast', 'fat', 'funny', 'happy', 'pretty',
-    'sad', 'serious', 'skinny', 'slow', 'smart', 'stupid', 'ugly'
+    'abysmal', 'belated', 'benign', 'caffeinated', 'cantankerous'
+    'creative', 'boring', 'chunky', 'creepy', 'fast', 'funny', 'happy',
+    'pretty', 'sad', 'serious', 'skinny', 'slow', 'smart', 'stupid', 'ugly'
   ];
 
   this.adverbs = [
-    'carefully', 'easily', 'finally', 'loudly', 'quickly', 'quietly',
-    'obnoxiously', 'patiently', 'slowly'
+    'abnormally', 'abundantly', 'adoringly', 'aimlessly', 'always', 'awkwardly',
+    'blatantly', 'blessedly', 'blindly', 'bravely', 'briefly',
+    'carefully', 'childishly', 'coherently', 'directly', 'drearily', 'easily',
+    'eloquently', 'finally', 'figuratively', 'generally', 'loudly', 'quickly',
+    'quietly', 'obnoxiously', 'painfully', 'painlessly', 'patiently', 'slowly'
   ];
 
   var generateRandom = function (wType) {

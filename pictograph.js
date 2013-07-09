@@ -1,7 +1,9 @@
 var Pictograph = function () {
   this.nouns = [
-    'baby', 'beer', 'car', 'cat', 'coffee', 'computer', 'dog', 'house', 'man',
-    'time', 'wine', 'woman'
+    'apple', 'autumn', 'baby', 'banana', 'barn', 'beer', 'car', 'cat', 'coffee',
+    'computer', 'cow', 'dingo', 'dog', 'eel', 'elephant',
+    'horse', 'house', 'man', 'mango', 'milk', 'sheep', 'spring', 'summer',
+    'television', 'time', 'wine', 'winter', 'woman'
   ];
 
   var generateRandom = function (pType) {
