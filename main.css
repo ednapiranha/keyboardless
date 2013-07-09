@@ -1,0 +1,26 @@
+#wrapper {
+  margin: 0 auto;
+  text-align: center;
+  width: 400px;
+}
+
+#display-field {
+  font-size: 27px;
+  height: 30px;
+  line-height: 30px;
+  margin-bottom: 10px;
+}
+
+ul {
+  list-style-type: none;
+  margin-bottom: 10px;
+  padding: 0;
+}
+
+li {
+  background-color: #eee;
+  cursor: pointer;
+  font-size: 20px;
+  margin-bottom: 2px;
+  padding: 5px 10px;
+}
