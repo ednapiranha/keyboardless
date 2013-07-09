@@ -6,7 +6,7 @@ var Word = function () {
   ];
 
   this.adjectives = [
-    'abysmal', 'belated', 'benign', 'caffeinated', 'cantankerous'
+    'abysmal', 'belated', 'benign', 'caffeinated', 'cantankerous',
     'creative', 'boring', 'chunky', 'creepy', 'fast', 'funny', 'happy',
     'pretty', 'sad', 'serious', 'skinny', 'slow', 'smart', 'stupid', 'ugly'
   ];
