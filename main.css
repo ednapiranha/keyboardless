@@ -1,11 +1,11 @@
 #wrapper {
   margin: 0 auto;
   text-align: center;
-  width: 400px;
+  width: 500px;
 }
 
 #display-field {
-  font-size: 27px;
+  font-size: 26px;
   height: 30px;
   line-height: 30px;
   margin-bottom: 10px;
