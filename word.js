@@ -2,7 +2,7 @@ var Word = function () {
   this.verbs = [
     'barking', 'complaining','driving', 'dumping', 'dying', 'eating', 'going',
     'hugging', 'jumping', 'meeting', 'running', 'singing', 'sleeping',
-    'talking', 'thinking', 'walking', 'waxing', 'whining'
+    'talking', 'thinking', 'walking', 'waxing', 'whining', 'whispering',
   ];
 
   this.adjectives = [
@@ -17,6 +17,13 @@ var Word = function () {
     'carefully', 'childishly', 'coherently', 'directly', 'drearily', 'easily',
     'eloquently', 'finally', 'figuratively', 'generally', 'loudly', 'quickly',
     'quietly', 'obnoxiously', 'painfully', 'painlessly', 'patiently', 'slowly'
+  ];
+
+  this.nouns = [
+    'apple', 'autumn', 'baby', 'banana', 'barn', 'beer', 'car', 'cat', 'coffee',
+    'computer', 'cow', 'dingo', 'dog', 'eel', 'elephant',
+    'horse', 'house', 'man', 'mango', 'milk', 'sheep', 'spring', 'summer',
+    'television', 'time', 'wine', 'winter', 'woman'
   ];
 
   var generateRandom = function (wType) {

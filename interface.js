@@ -1,13 +1,13 @@
 var word = new Word();
-var pictograph = new Pictograph();
 
 var displayField = $('#display-field');
+var maxWords = 0;
 
 var randomize = function () {
   var adverbs = word.getResult(word.adverbs);
   var adjectives = word.getResult(word.adjectives);
   var verbs = word.getResult(word.verbs);
-  var nouns = pictograph.getResult(pictograph.nouns);
+  var nouns = word.getResult(word.nouns);
 
   $('ul').empty();
 
@@ -36,6 +36,7 @@ $('button').on('touchstart click', function (ev) {
   var self = $(ev.target);
 
   if (self.hasClass('reset')) {
+    maxWords = 0;
     displayField.empty();
   } else {
     randomize();
@@ -45,5 +46,8 @@ $('button').on('touchstart click', function (ev) {
 $('ul').on('touchstart click', 'li', function (ev) {
   ev.preventDefault();
 
-  displayField.append($(ev.target).text() + ' ');
+  if (maxWords < 4) {
+    maxWords ++;
+    displayField.append($(ev.target).text() + ' ');
+  }
 });
