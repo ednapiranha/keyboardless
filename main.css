@@ -20,7 +20,7 @@ button {
 ul {
   float: left;
   list-style-type: none;
-  margin: 0 auto 10px auto;
+  margin: 10px auto;
   padding: 0;
 }
 
